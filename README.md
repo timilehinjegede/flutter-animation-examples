@@ -18,12 +18,16 @@ If you appreciate the content 📖, support the project by giving a ⭐ for visi
 
 ## Youtube Tutorials
 
-* [Use CustomPaint to create a Drawing App (The Boring Flutter Development Show, Ep. 28)](https://pub.dartlang.org/flutter)
+* [How to choose which Flutter Animation Widget is right for you? - Flutter in Focus](https://www.youtube.com/watch?v=GXIJJkq_H8g) by Flutter Team
+* [Flutter Europe: Animations in Flutter done right](https://www.youtube.com/watch?v=wnARLByOtKA) by Flutter Team
+* [How to choose which Flutter Animation Widget is right for you? - Flutter in Focus](https://www.youtube.com/watch?v=GXIJJkq_H8g) by Flutter Team
+* [How to choose which Flutter Animation Widget is right for you? - Flutter in Focus](https://www.youtube.com/watch?v=GXIJJkq_H8g) by Flutter Team
+* [How to choose which Flutter Animation Widget is right for you? - Flutter in Focus](https://www.youtube.com/watch?v=GXIJJkq_H8g) by Flutter Team
+
 
 
 ## Articles
 
-* [How to draw and animate designs with Flutter CustomPaint Widget](https://blog.codemagic.io/flutter-custom-painter/) by Souvik Biswas
 
 
 
