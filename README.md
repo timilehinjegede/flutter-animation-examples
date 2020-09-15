@@ -1,16 +1,40 @@
-# animations
+# Flutter Animation Examples
 
-A new Flutter project.
+A new Flutter showcasing different examples of using animations in your Flutter application.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+If you appreciate the content 📖, support the project by giving a ⭐ for visibility.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Table of Contents
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- [Examples](#examples)
+- [Youtube Tutorials](#youtube-tutorials)
+- [Articles](#articles)
+- [Packages](#packages)
+
+
+## Examples
+
+
+## Youtube Tutorials
+
+* [How to choose which Flutter Animation Widget is right for you? - Flutter in Focus](https://www.youtube.com/watch?v=GXIJJkq_H8g) by Flutter Team
+* [Flutter Europe: Animations in Flutter done right](https://www.youtube.com/watch?v=wnARLByOtKA) by Flutter Team
+* [Animation Basics with Implicit Animations](https://www.youtube.com/watch?v=IVTjpW3W33s) by Flutter Team
+* [Flutter Animation Tutorial - Understand the Basics & Animate with Ease](https://www.youtube.com/watch?v=txLvvlooT20) by Reso Coder
+* [AnimatedWidget (Flutter Widget of the Week)](https://www.youtube.com/watch?v=LKKgYpC-EPQ) by Flutter Team
+
+
+
+## Articles
+
+## Packages
+- [animations](https://pub.dev/packages/animations) by Flutter Team
+
+
+
+
+
+
+
