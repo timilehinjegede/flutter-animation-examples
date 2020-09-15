@@ -1,16 +1,31 @@
-# animations
+# Flutter Animation Examples
 
-A new Flutter project.
+A new Flutter showcasing different examples of using animations in your Flutter application.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+If you appreciate the content 📖, support the project by giving a ⭐ for visibility.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Table of Contents
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- [Examples](#examples)
+- [Youtube Tutorials](#youtube-tutorials)
+- [Articles](#articles)
+
+
+## Examples
+
+
+## Youtube Tutorials
+
+* [Use CustomPaint to create a Drawing App (The Boring Flutter Development Show, Ep. 28)](https://pub.dartlang.org/flutter)
+
+
+## Articles
+
+* [How to draw and animate designs with Flutter CustomPaint Widget](https://blog.codemagic.io/flutter-custom-painter/) by Souvik Biswas
+
+
+
+
+
