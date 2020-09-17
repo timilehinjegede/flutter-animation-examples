@@ -28,6 +28,15 @@ If you appreciate the content 📖, support the project by giving a ⭐ for visi
 
 
 ## Articles
+* [When should I useAnimatedBuilder or AnimatedWidget?](https://medium.com/flutter/when-should-i-useanimatedbuilder-or-animatedwidget-57ecae0959e8) by Emily Fortuna
+* [Directional animations with built-in explicit animations](https://medium.com/flutter/directional-animations-with-built-in-explicit-animations-3e7c5e6fbbd7) by Andrew Fitz Giibbon
+* [How to Choose Which Flutter Animation Widget is Right for You?](https://medium.com/flutter/how-to-choose-which-flutter-animation-widget-is-right-for-you-79ecfb7e72b5) by Andrew Fitz Gibbon
+* [How to choose which Flutter Animation Widget is right for you? - Flutter in Focus](https://www.youtube.com/watch?v=GXIJJkq_H8g) by Flutter Team
+* [How to choose which Flutter Animation Widget is right for you? - Flutter in Focus](https://www.youtube.com/watch?v=GXIJJkq_H8g) by Flutter Team
+* [How to choose which Flutter Animation Widget is right for you? - Flutter in Focus](https://www.youtube.com/watch?v=GXIJJkq_H8g) by Flutter Team
+* [How to choose which Flutter Animation Widget is right for you? - Flutter in Focus](https://www.youtube.com/watch?v=GXIJJkq_H8g) by Flutter Team
+
+
 
 ## Packages
 - [animations](https://pub.dev/packages/animations) by Flutter Team
