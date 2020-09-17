@@ -31,10 +31,9 @@ If you appreciate the content 📖, support the project by giving a ⭐ for visi
 * [When should I useAnimatedBuilder or AnimatedWidget?](https://medium.com/flutter/when-should-i-useanimatedbuilder-or-animatedwidget-57ecae0959e8) by Emily Fortuna
 * [Directional animations with built-in explicit animations](https://medium.com/flutter/directional-animations-with-built-in-explicit-animations-3e7c5e6fbbd7) by Andrew Fitz Giibbon
 * [How to Choose Which Flutter Animation Widget is Right for You?](https://medium.com/flutter/how-to-choose-which-flutter-animation-widget-is-right-for-you-79ecfb7e72b5) by Andrew Fitz Gibbon
-* [How to choose which Flutter Animation Widget is right for you? - Flutter in Focus](https://www.youtube.com/watch?v=GXIJJkq_H8g) by Flutter Team
-* [How to choose which Flutter Animation Widget is right for you? - Flutter in Focus](https://www.youtube.com/watch?v=GXIJJkq_H8g) by Flutter Team
-* [How to choose which Flutter Animation Widget is right for you? - Flutter in Focus](https://www.youtube.com/watch?v=GXIJJkq_H8g) by Flutter Team
-* [How to choose which Flutter Animation Widget is right for you? - Flutter in Focus](https://www.youtube.com/watch?v=GXIJJkq_H8g) by Flutter Team
+* [Flutter animation basics with implicit animations](https://medium.com/flutter/flutter-animation-basics-with-implicit-animations-95db481c5916) by Alethea K. Flowers
+* [Custom Implicit Animations in Flutter…with TweenAnimationBuilder](https://medium.com/flutter/custom-implicit-animations-in-flutter-with-tweenanimationbuilder-c76540b47185) by Emily Fortuna
+* [Animation deep dive](https://medium.com/flutter/animation-deep-dive-39d3ffea111f) by Filip Hracek
 
 
 
