@@ -1,4 +1,5 @@
 class RouteNames {
 
-  static const String animatedSwitch = '/animatedSwitch';
+  static const String animatedSwitchRoute = '/animatedSwitchRoute';
+  static const String homeRoute = '/homeRoute';
 }

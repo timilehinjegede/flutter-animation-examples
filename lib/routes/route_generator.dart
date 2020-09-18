@@ -9,11 +9,16 @@ class RouteGenerator {
     );
   }
 
-  static generateRoute(RouteSettings routeSettings) {
+  static Route generateRoute(RouteSettings routeSettings) {
     switch (routeSettings.name) {
-      case RouteNames.animatedSwitch:
+      case RouteNames.animatedSwitchRoute:
         return navigationContainer(
           page: AnimatedSwitchScreen(),
+        );
+        break;
+      case RouteNames.homeRoute:
+        return navigationContainer(
+          page: HomeScreen(),
         );
         break;
       default:
