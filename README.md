@@ -39,6 +39,8 @@ If you appreciate the content 📖, support the project by giving a ⭐ for visi
 
 ## Packages
 - [animations](https://pub.dev/packages/animations) by Flutter Team
+- [animate_do](https://pub.dev/packages/animate_do) by Fernando
+
 
 
 
