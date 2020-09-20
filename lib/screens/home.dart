@@ -7,16 +7,17 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          'Animation Examples',
+          'Flutter Animation Examples',
         ),
       ),
       body: GridView.builder(
         padding: const EdgeInsets.symmetric(horizontal: 15.0, vertical: 10.0),
         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-            crossAxisCount: 2,
-            mainAxisSpacing: 10,
-            crossAxisSpacing: 10,
-            childAspectRatio: 1.3),
+          crossAxisCount: 2,
+          mainAxisSpacing: 10,
+          crossAxisSpacing: 10,
+          childAspectRatio: 1.3,
+        ),
         itemBuilder: (_, index) {
           return ItemCard(
             cardTitle: ScreenModel.screenModelList[index].screenName,
@@ -41,7 +42,13 @@ class ItemCard extends StatelessWidget {
   final String cardTitle;
   final VoidCallback onTap;
 
-  const ItemCard({Key key, this.cardTitle, this.onTap}) : super(key: key);
+  const ItemCard({
+    Key key,
+    @required this.cardTitle,
+    @required this.onTap,
+  })  : assert(cardTitle != null, 'Card Title cannot be null'),
+        assert(onTap != null, 'onTap cannot be null'),
+        super(key: key);
 
   @override
   Widget build(BuildContext context) {
