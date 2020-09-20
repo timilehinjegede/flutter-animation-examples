@@ -1,3 +1,4 @@
+import 'package:animations/models/screen_model.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -18,13 +19,19 @@ class HomeScreen extends StatelessWidget {
             childAspectRatio: 1.3),
         itemBuilder: (_, index) {
           return ItemCard(
-            cardTitle: 'index $index',
-            onTap: (){
-              print(index);
+            cardTitle: ScreenModel.screenModelList[index].screenName,
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (_) =>
+                      ScreenModel.screenModelList[index].screenWidget,
+                ),
+              );
             },
           );
         },
-        itemCount: 3,
+        itemCount: ScreenModel.screenModelList.length,
       ),
     );
   }
@@ -43,13 +50,18 @@ class ItemCard extends StatelessWidget {
       child: Card(
         margin: EdgeInsets.zero,
         color: Colors.blue,
-        child: Center(
-          child: Text(
-            cardTitle,
-            style: TextStyle(
-              fontSize: 20,
-              fontWeight: FontWeight.w500,
-              color: Colors.white,
+        child: Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: Center(
+            child: Text(
+              cardTitle,
+              style: TextStyle(
+                fontSize: 20,
+                fontWeight: FontWeight.w500,
+                color: Colors.white,
+              ),
+              overflow: TextOverflow.ellipsis,
+              maxLines: 5,
             ),
           ),
         ),
