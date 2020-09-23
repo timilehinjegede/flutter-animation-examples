@@ -14,9 +14,9 @@ class _AnimatedSwitchScreenState extends State<AnimatedSwitchScreen> {
   // variable to keep the state of the switch
   bool _isOn = false;
   // curve for the animation
-  Curve _animationCurve = Curves.easeInOut;
+  Curve _kAnimationCurve = Curves.easeInOut;
   // duration of the animation
-  Duration _duration = Duration(
+  Duration _kDuration = Duration(
     milliseconds: 300,
   );
 
@@ -36,13 +36,11 @@ class _AnimatedSwitchScreenState extends State<AnimatedSwitchScreen> {
           splashColor: Colors.transparent,
           highlightColor: Colors.transparent,
           onTap: () {
-            setState(() {
-              _isOn = !_isOn;
-            });
+            setState(() => _isOn = !_isOn);
           },
           child: AnimatedContainer(
-            duration: _duration,
-            curve: _animationCurve,
+            duration: _kDuration,
+            curve: _kAnimationCurve,
             padding: EdgeInsets.symmetric(
               horizontal: _isOn ? 25 : 10,
             ),
@@ -59,12 +57,12 @@ class _AnimatedSwitchScreenState extends State<AnimatedSwitchScreen> {
             child: Center(
               // custom switch indicator
               child: AnimatedAlign(
-                duration: _duration,
-                curve: _animationCurve,
+                duration: _kDuration,
+                curve: _kAnimationCurve,
                 alignment: _isOn ? Alignment.centerRight : Alignment.centerLeft,
                 child: AnimatedContainer(
-                  duration: _duration,
-                  curve: _animationCurve,
+                  duration: _kDuration,
+                  curve: _kAnimationCurve,
                   height: 55,
                   width: _isOn ? 20 : 55,
                   decoration: BoxDecoration(
