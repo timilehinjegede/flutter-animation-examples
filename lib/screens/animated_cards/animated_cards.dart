@@ -1,7 +1,7 @@
-
 // card height value
 import 'dart:math';
 
+import 'package:animations/models/screen_model.dart';
 import 'package:flutter/material.dart';
 
 const double kCardHeight = 200;
@@ -24,6 +24,10 @@ const Curve kAnimationCurve = Curves.easeInOut;
 const double _kCardSpacing = 30;
 
 class AnimatedCards extends StatefulWidget {
+  final int index;
+
+  const AnimatedCards({Key key, this.index}) : super(key: key);
+
   @override
   _AnimatedCardsState createState() => _AnimatedCardsState();
 }
@@ -273,6 +277,11 @@ class _AnimatedCardsState extends State<AnimatedCards>
       cardFourController
     ];
     return Scaffold(
+      appBar: AppBar(
+        title: Text(
+          ScreenModel.screenModelList[widget.index].screenName,
+        ),
+      ),
       backgroundColor: Colors.white,
       body: Padding(
         padding: const EdgeInsets.only(top: 100),
