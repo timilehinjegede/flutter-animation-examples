@@ -13,5 +13,10 @@ class ScreenModel {
       screenName: 'Animated Switch',
       screenWidget: AnimatedSwitchScreen(index: 0),
     ),
+    // Animated Cards
+    ScreenModel(
+      screenName: 'Animated Cards',
+      screenWidget: AnimatedCards(index: 1),
+    ),
   ];
 }
