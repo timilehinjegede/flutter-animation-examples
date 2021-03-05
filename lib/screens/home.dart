@@ -10,18 +10,12 @@ class HomeScreen extends StatelessWidget {
           'Flutter Animation Examples',
         ),
       ),
-      body: GridView.builder(
-        padding: const EdgeInsets.symmetric(horizontal: 15.0, vertical: 10.0),
-        gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-          crossAxisCount: 2,
-          mainAxisSpacing: 10,
-          crossAxisSpacing: 10,
-          childAspectRatio: 1.3,
-        ),
+      body: ListView.builder(
+        padding: const EdgeInsets.all(10.0),
         itemBuilder: (_, index) {
-          return ItemCard(
-            cardTitle: ScreenModel.screenModelList[index].screenName,
-            onTap: () {
+          return ItemButton(
+            title: ScreenModel.screenModelList[index].screenName,
+            onPressed: () {
               Navigator.push(
                 context,
                 MaterialPageRoute(
@@ -38,38 +32,38 @@ class HomeScreen extends StatelessWidget {
   }
 }
 
-class ItemCard extends StatelessWidget {
-  final String cardTitle;
-  final VoidCallback onTap;
+class ItemButton extends StatelessWidget {
+  final String title;
+  final VoidCallback onPressed;
 
-  const ItemCard({
+  const ItemButton({
     Key key,
-    @required this.cardTitle,
-    @required this.onTap,
-  })  : assert(cardTitle != null, 'Card Title cannot be null'),
-        assert(onTap != null, 'onTap cannot be null'),
+    @required this.title,
+    @required this.onPressed,
+  })  : assert(title != null, 'Button Title cannot be null'),
+        assert(onPressed != null, 'onTap cannot be null'),
         super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return InkWell(
-      onTap: onTap,
-      child: Card(
-        margin: EdgeInsets.zero,
-        color: Colors.blue,
-        child: Padding(
-          padding: const EdgeInsets.all(8.0),
-          child: Center(
-            child: Text(
-              cardTitle,
-              style: TextStyle(
-                fontSize: 20,
-                fontWeight: FontWeight.w500,
-                color: Colors.white,
-              ),
-              overflow: TextOverflow.ellipsis,
-              maxLines: 5,
+    return Padding(
+      padding: const EdgeInsets.all(5.0),
+      child: SizedBox(
+        height: 50,
+        width: double.infinity,
+        child: TextButton(
+          onPressed: onPressed,
+          style: TextButton.styleFrom(
+              backgroundColor: Theme.of(context).primaryColor),
+          child: Text(
+            title,
+            style: TextStyle(
+              fontSize: 20,
+              fontWeight: FontWeight.w500,
+              color: Colors.white,
             ),
+            overflow: TextOverflow.ellipsis,
+            maxLines: 5,
           ),
         ),
       ),
